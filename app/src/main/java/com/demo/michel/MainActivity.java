@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         listView = (ListView) findViewById(R.id.captureList);
         getSets = new ArrayList<GetSet>();
-        imageFor = getResources().getStringArray(R.array.imageFor);
+        imageFor = getResources().getStringArray(R.array.imageFor);问题所在
         for (int i = 0; i < 3; i++) {
             GetSet inflate = new GetSet();
             //Global Values
